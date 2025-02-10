@@ -28,6 +28,9 @@ public class KeyboardButtonController : MonoBehaviour
     }
 
     public void AddLetter() {
+        Debug.Log("Pressionou");
+        Debug.Log(GameManager.Instance);
+        Debug.Log(containerText.gameObject.name);
         if(GameManager.Instance != null) {
             GameManager.Instance.AddLetter(containerText.text);
         } else {

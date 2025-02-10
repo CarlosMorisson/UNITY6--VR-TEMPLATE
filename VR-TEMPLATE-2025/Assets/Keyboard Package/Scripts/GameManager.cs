@@ -4,8 +4,8 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    [SerializeField] TextMeshProUGUI textBox;
-    [SerializeField] TextMeshProUGUI printBox;
+    [SerializeField] TMP_InputField textBox;
+    [SerializeField] TMP_InputField printBox;
 
     private void Start()
     {
@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     }
     public void SetTextBox(TMP_InputField inputField)
     {
-        textBox.text = inputField.text;
+        textBox = inputField;
     }
     public void DeleteLetter()
     {
@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour
 
     public void AddLetter(string letter)
     {
+        Debug.Log(textBox.gameObject.name);
+        Debug.Log(textBox.text);
         textBox.text = textBox.text + letter;
     }
 
