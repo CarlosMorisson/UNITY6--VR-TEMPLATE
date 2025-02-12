@@ -1,0 +1,1 @@
+C:\Projetos\VrTemaplate\UNITY6--VR-TEMPLATE\VR-TEMPLATE-2025\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\Debug\2d1n701t\obj\arm64-v8a

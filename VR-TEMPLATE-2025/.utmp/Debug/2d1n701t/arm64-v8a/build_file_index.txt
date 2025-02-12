@@ -1,0 +1,2 @@
+C:\Projetos\VrTemaplate\UNITY6--VR-TEMPLATE\VR-TEMPLATE-2025\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Projetos\VrTemaplate\UNITY6--VR-TEMPLATE\VR-TEMPLATE-2025\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

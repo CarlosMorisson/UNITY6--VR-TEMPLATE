@@ -196,6 +196,17 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""61672ae6-c1c6-4894-9a76-1ab616d33c01"",
+                    ""path"": ""<XRController>{LeftHand}/primaryButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard & Mouse;Gamepad;Mobile"",
+                    ""action"": ""Talk"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""eca909b4-db20-4f74-86ec-48d30a34f031"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",

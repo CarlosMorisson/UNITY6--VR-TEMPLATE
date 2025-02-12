@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using TMPro;
@@ -12,7 +13,7 @@ namespace Convai.Scripts.Runtime.UI
     /// </summary>
     public class ChatBoxUI : ChatUIBase
     {
-        private const int MAX_MESSAGES = 25;
+        private const int MAX_MESSAGES = 1;
         [SerializeField] private GameObject _playerMessageObject, _characterMessageObject;
 
         private readonly List<Message> _messageList = new();
@@ -255,8 +256,11 @@ namespace Convai.Scripts.Runtime.UI
             newMessage.MessageTextObject.text = text;
 
             _messageList.Add(newMessage);
+          
+         
         }
 
+    
         /// <summary>
         ///     Enumeration of the possible speakers.
         /// </summary>
@@ -266,4 +270,24 @@ namespace Convai.Scripts.Runtime.UI
             Character
         }
     }
+
+    //public class CoroutineRunner : MonoBehaviour
+    //{
+    //    private static CoroutineRunner _instance;
+
+    //    // Singleton para garantir uma única instância de CoroutineRunner
+    //    public static CoroutineRunner Instance
+    //    {
+    //        get
+    //        {
+    //            if (_instance == null)
+    //            {
+    //                GameObject obj = new GameObject("CoroutineRunner");
+    //                _instance = obj.AddComponent<CoroutineRunner>();
+    //                DontDestroyOnLoad(obj);
+    //            }
+    //            return _instance;
+    //        }
+    //    }
+    //}
 }

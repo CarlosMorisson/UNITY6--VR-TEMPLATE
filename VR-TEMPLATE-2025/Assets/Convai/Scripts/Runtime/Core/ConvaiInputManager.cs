@@ -22,6 +22,8 @@ namespace Convai.Scripts.Runtime.Core
         public Action sendText;
         public Action toggleChat;
         public Action toggleSettings;
+    
+
 
         public bool IsTalkKeyHeld { get; private set; }
         public Action<bool> talkKeyInteract;
