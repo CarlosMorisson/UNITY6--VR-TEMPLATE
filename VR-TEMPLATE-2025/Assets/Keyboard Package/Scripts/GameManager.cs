@@ -23,7 +23,10 @@ public class GameManager : MonoBehaviour
             textBox.text = textBox.text.Remove(textBox.text.Length - 1, 1);
         }
     }
-
+    public void DebugHandActivation()
+    {
+        print("Debugou e ativou");
+    }
     public void AddLetter(string letter)
     {
         Debug.Log(textBox.gameObject.name);

@@ -5,6 +5,22 @@ TagManager:
   serializedVersion: 3
   tags:
   - Anchor
+  - z
+  - c
+  - m
+  - x
+  - n
+  - v
+  - b
+  - j
+  - f
+  - a
+  - k
+  - l
+  - g
+  - d
+  - h
+  - s
   layers:
   - Default
   - TransparentFX
@@ -14,7 +30,7 @@ TagManager:
   - UI
   - Ignore
   - Player
-  - 
+  - CollideWithHands
   - 
   - 
   - 
