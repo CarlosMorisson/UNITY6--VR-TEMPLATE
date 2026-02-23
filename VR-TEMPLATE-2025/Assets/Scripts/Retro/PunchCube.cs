@@ -140,7 +140,7 @@ public class PunchCube : CubeCollider
         }
 
         transform.DOScale(Vector3.zero, scaleDownDuration)
-            .SetEase(Ease.InBack)
+            .SetEase(DG.Tweening.Ease.InBack)
             .OnComplete(() =>
             {
                 GameObject parent = transform.parent.gameObject;

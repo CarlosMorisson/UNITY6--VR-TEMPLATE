@@ -51,12 +51,16 @@ public class LoaderController : MonoBehaviour
 
     // =========================================================
     // =========================================================
-    private void ApplySceneColors()
+    public void ApplySceneColors()
     {
         ApplyColorByTag(PRIMARY_COLOR, LoadGame.BuildSettings.PrimaryColor);
         ApplyColorByTag(SECONDARY_COLOR, LoadGame.BuildSettings.SecondaryColor);
     }
-
+    public void ApplyEffectColor(Color primaryColor, Color secondaryColor)
+    {
+        ApplyColorByTag(PRIMARY_COLOR, primaryColor);
+        ApplyColorByTag(SECONDARY_COLOR, LoadGame.BuildSettings.SecondaryColor);
+    }
     private void ApplyColorByTag(string tag, Color hdrColor)
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag(tag);

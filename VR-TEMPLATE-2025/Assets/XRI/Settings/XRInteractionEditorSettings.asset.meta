@@ -1,8 +1,15 @@
 fileFormatVersion: 2
-guid: 6f9d97661ed1b724ab50d66fe4b0c37b
+guid: f2e77449b3b000b43be045664a0ef6d5
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 168243
+  packageName: VR Beats Kit
+  packageVersion: 2.0
+  assetPath: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  uploadId: 546658

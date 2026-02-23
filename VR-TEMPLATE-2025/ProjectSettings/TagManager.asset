@@ -4,31 +4,7 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Anchor
-  - z
-  - c
-  - m
-  - x
-  - n
-  - v
-  - b
-  - j
-  - f
-  - a
-  - k
-  - l
-  - g
-  - d
-  - h
-  - s
-  - Particle
-  - BossRainProjectile
-  - RainTargetMarker
-  - FinalBoost
-  - Wall
-  - Ground
-  - PrimaryColor
-  - SecondaryColor
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -36,24 +12,24 @@ TagManager:
   - 
   - Water
   - UI
-  - Ignore
+  - 
+  - 
+  - Hand
+  - Button
+  - Enemy
+  - LevelGeometry
   - Player
-  - CollideWithHands
-  - Feedback
-  - Box
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Grabbable
+  - Lever
+  - VisualSensor
+  - AI_Stimulation_Enemy
+  - AI_Stimulation_Player
+  - IgnoreCollision
+  - Dropzone_Trigger
+  - LaserSword
+  - GrabCollider
+  - Wall
+  - HeadCollider
   - 
   - 
   - 

@@ -17,10 +17,10 @@ PhysicsManager:
   m_EnableAdaptiveForce: 0
   m_ClothInterCollisionDistance: 0
   m_ClothInterCollisionStiffness: 0
-  m_LayerCollisionMatrix: bffeffffbffcffffbffcffffffffffffbffcffffbffcffffc8fdfffffffcffff48fcffff09fcfffffffbffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  m_LayerCollisionMatrix: c95f10ffc80010ffc80010ffffffffffc80010ffc80010ffffffffffffffffffc94630ffc92510ffc91b10ffc91410ffc94c10ffc80218ffc91110ffc80012ffc80010ffc88000ffc80000ffc82010ffffff19ffc80100ffc80080ffc80040ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   m_SimulationMode: 0
   m_AutoSyncTransforms: 1
-  m_ReuseCollisionCallbacks: 1
+  m_ReuseCollisionCallbacks: 0
   m_InvokeCollisionCallbacks: 1
   m_ClothInterCollisionSettingsToggle: 0
   m_ClothGravity: {x: 0, y: -9.81, z: 0}

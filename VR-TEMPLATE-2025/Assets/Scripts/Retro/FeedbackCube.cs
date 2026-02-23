@@ -52,7 +52,7 @@ public class FeedbackCube : MonoBehaviour
 
         Sequence seq = DOTween.Sequence();
 
-        seq.Append(transform.DOScale(Vector3.zero, scaleDuration).SetEase(Ease.InQuad));
+        seq.Append(transform.DOScale(Vector3.zero, scaleDuration).SetEase(DG.Tweening.Ease.InBack));
         seq.OnComplete(() =>
         {
             tweenFinished = true;

@@ -18,7 +18,7 @@ public class SubBossMovemment : MonoBehaviour
 
         transform.DOPath(pathPositions, TIME_TO_RUN, PathType.CatmullRom, PathMode.Full3D)
                 .SetLookAt(0.01f)
-                .SetEase(Ease.InSine)
+                .SetEase(DG.Tweening.Ease.InBack)
                 .SetLoops(-1, LoopType.Restart);
     }
 
